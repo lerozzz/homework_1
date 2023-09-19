@@ -1,10 +1,9 @@
 // Task 1.
 // Выведите в консоль ваше имя.
-
+console.log('Lera')
 // Task 2.
 // Выведите в консоль номер месяца в котором вы родились. Изучите чем отличается вывод числа и строки.
-
-console.log('просто напишите номер месяца здесь');
+console.log(8)
 
 
 
@@ -12,43 +11,43 @@ console.log('просто напишите номер месяца здесь');
 // Выведите в консоль строку:
 // 'Добро '+'пожаловать '+' на курс'
 
-console.log('пишем тут');
+console.log('Добро ' + 'Пожаловать ' + 'на курс');
 
 
 // Task 4.
 // С помощью alert выведите число 2019. После срабатывания кода - закомментируйте его, чтобы не мешал для дальнейшей разработки
 
-
+//alert(2019)
 
 // Task 5.
 // С помощью alert выведите результат операции:
 //    2019 - 200
 
-
+//alert(2019 - 200)
 
 // Task 6.
 // Создайте на странице div с id=one. С помощью document.getElementById запишите в данный элемент текст 'Hello World'.
-
+document.getElementById('one').innerHTML = '<b>Hello World</b>';
 
 
 // Task 7.
 // Создайте на странице div с id=two. С помощью document.getElementById запишите в данный элемент результат умножения 12 на 12. Умножение можно сделать с помощью знака звездочки ( цифра 8).
-
+document.getElementById('two').innerHTML = 12 * 12
 
 // Task 8.
 // Создайте div с классом one. С помощью document.querySelector запишите в данный элемент текст 'Hello World'.
-
+document.querySelector('.one').innerHTML = 'Hello World'
 
 // Task 9.
 // Создайте следующую верстку на странице:
 //<h2>Hello <span>everyone</span></h2>
 // Замените с помощью querySelector текст everyone на world.
-
+document.querySelector('h2 span').innerHTML = 'World'
 
 
 // Task 10.
 //Создайте пустой div c классом three. С помощью querySelector запишите внутрь div заголовок h3 с произвольным текстом.
-
+document.querySelector('.three').innerHTML = 'Pasha Piska'
 
 // Task 11.
 // Создайте пустой div c классом four. С помощью querySelector запишите внутрь div заголовок h4 с произвольным текстом и параграф p с произвольным текстом. Подсказка, чтобы дописывать внутрь элемента используейте не innerHTML = , а innerHTML += (плюс равно без пробела).
